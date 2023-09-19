@@ -6,11 +6,11 @@ This lab is designed to get you familiar with Python input(), converting data ty
 """
 
 # 1. Ask the user for their name and assign it to a variable called "name".
-
+name = input("What is your name? ")
 # 2. Ask the user for their age and assign it to a variable called "age".
-
+age = int(input("What is your age? "))
 # 3. Ask the user for a balance and assign it to a variable called "balance".
-
+balance = float(input("What is your balance? "))
 # 4. Ask the user for a number of years to calculate interest and assign it to a variable called "years".
 
 # 5. Ask the user for an interest rate and assign it to a variable called "interest_rate".

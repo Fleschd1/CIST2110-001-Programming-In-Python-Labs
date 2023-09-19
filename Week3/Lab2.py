@@ -1,29 +1,33 @@
 # Lab2
-# Author: 
+# Author: Daniel Flesch
 
 """_summary_
 This lab is designed to get you familiar with Python Data Types, Variables, and Arithmetic Operators.
 """
     
 # 1. Create a variable called "name" and assign it the value of your name. Print the variable.
-
+name = "Daniel Flesch"
+print(name)
 # 2. Create a variable called "age" and assign it the value of your age. Print the variable.
-
+age = 18
+print(age)
 # 3. Create a variable called "favorite_color" and assign it the value of your favorite color. Print the variable.
-
+favorite_color = "Blue"
+print(favorite_color)
 # 4. Create a variable called "favorite_movie" and assign it the value of your favorite movie. Print the variable.
-
+favorite_movie = "Unbroken"
+print(favorite_movie)
 # 5. Use string concatenation to print the following sentence: "Hello, my name is <name>. I am <age> years old. My favorite color is <favorite_color> and my favorite movie is <favorite_movie>."
 # Note: punctuation and capitalization matters. Make sure your sentence matches the one above exactly.
-
+print("Hello, my name is ", + name+ ". I am "+ age+ "years old. My favorite color is "+ favorite_color, + " and my favorite movie is ", + favorite_movie, + ".")
 # 6. Create a variable called "my_age_in_dog_years" and assign it the value of your age multiplied by 7. 
-
+my_age_in_dog_years = age * 7
 # 7. Create a variable called "days_in_a_year" and assign it the value of 365.
-
+days_in_a_year = 365
 # 8. Create a variable called "days_alive" and assign it the value of your age multiplied by the number of days in a year.
-
+days_alive = age * 365
 # 9. Create a variable called "days_alive_in_dog_years" and assign it the value of your age in dog years multiplied by the number of days in a year.
-
+days_alive_in_dog_years = my_age_in_dog_years * 365
 # 10. Create a chart that shows the following information:
 # - Your name
 # - Your age
