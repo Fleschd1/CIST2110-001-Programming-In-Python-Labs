@@ -19,7 +19,7 @@ favorite_movie = "Unbroken"
 print(favorite_movie)
 # 5. Use string concatenation to print the following sentence: "Hello, my name is <name>. I am <age> years old. My favorite color is <favorite_color> and my favorite movie is <favorite_movie>."
 # Note: punctuation and capitalization matters. Make sure your sentence matches the one above exactly.
-print("Hello, my name is ", + name+ ". I am "+ age+ "years old. My favorite color is "+ favorite_color, + " and my favorite movie is ", + favorite_movie, + ".")
+print("Hello, my name is " + name+ ". I am "+ str(age) + "years old. My favorite color is "+ favorite_color + " and my favorite movie is " + favorite_movie + ". \n")
 # 6. Create a variable called "my_age_in_dog_years" and assign it the value of your age multiplied by 7. 
 my_age_in_dog_years = age * 7
 # 7. Create a variable called "days_in_a_year" and assign it the value of 365.
@@ -37,6 +37,17 @@ days_alive_in_dog_years = my_age_in_dog_years * 365
 # - Number of days in a year
 # - Number of days you have been alive
 # - Number of days you have been alive in dog years
+
+print("==================================")
+print("| Name: "+name +"\t\t |")
+print("| Age: "+str(age)+ "\t\t\t |")
+print("| Favorite Color: "+favorite_color+"\t\t |" )
+print("| Favorite Movie: "+favorite_movie + "\t |")
+print("| Age in Dog Years: "+str(my_age_in_dog_years)+"\t\t |")
+print("| Days in a year: "+str(days_in_a_year)+"\t\t |")
+print("| Days Alive: "+ str(days_alive)+"\t\t |")
+print("| Days Alive in Dog Years: "+str(days_alive_in_dog_years)+" |")
+print("==================================")
 
 
 """
