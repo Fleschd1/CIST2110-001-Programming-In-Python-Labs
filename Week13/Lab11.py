@@ -69,7 +69,7 @@ class Customer:
         print(f"{self.name}'s Cart:")
         print(
             tabulate.tabulate(
-                [product.__dict__() for product in self.cart]
+                [product.__dict__ for product in self.cart], tablefmt="fancy_grid"
             )
         )
 
@@ -137,15 +137,15 @@ customer2 = Customer("Jane", 2)
 
 
 # 18. Add product1 to the store using the add_product method.
-store.add_product(product1)
-# 19. Add product2 to the store using the add_product method.
-store.add_product(product2)
-# 20. Add product3 to the store using the add_product method.
-store.add_product(product3)
-# 21. Add customer1 to the store using the add_customer method.
-store.add_customer(customer1)
-# 22. Add customer2 to the store using the add_customer method.
-store.add_customer(customer2)
+Store.add_product(product1)
+# # 19. Add product2 to the store using the add_product method.
+Store.add_product(product2)
+# # 20. Add product3 to the store using the add_product method.
+Store.add_product(product3)
+# # 21. Add customer1 to the store using the add_customer method.
+Store.add_customer(customer1)
+# # 22. Add customer2 to the store using the add_customer method.
+Store.add_customer(customer2)
 # 23. Add product1 to customer1's cart using the add_to_cart method.
 customer1.add_to_cart(product1)
 # 24. Add product2 to customer1's cart using the add_to_cart method.
@@ -155,7 +155,7 @@ customer2.add_to_cart(product3)
 # 26. Display current products in customer1's cart using the display_products method.
 customer1.display_products()
 # 27. Display current products in customer2's cart using the display_products method.
-customer2.display_products()
+customer2.display_products_pretty()
 # 28. Checkout customer1's cart using the checkout method.
 customer1.checkout()
 # 29. Checkout customer2's cart using the checkout method.
